@@ -19,3 +19,10 @@ function stringReverse(str) {
 }
 
 stringReverse('reverse');
+
+function stringReverse2(str) {
+    let reversed = str.split('').reverse().join('');
+
+    console.log(reversed);
+    return reversed;
+}
