@@ -22,4 +22,4 @@ function fractionalKnapsack(items, capacity) {
     return { maxValue: maxValue.toFixed(2), fractions }
 }
 
-console.log (fractionalKnapsack([{value: 60, weight: 10}, {value: 100, weight: 20}, {value: 120, weight: 30}], 50))
+console.log(fractionalKnapsack([{value: 60, weight: 10}, {value: 100, weight: 20}, {value: 120, weight: 30}], 50))
