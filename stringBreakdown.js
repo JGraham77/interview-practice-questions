@@ -24,7 +24,7 @@ function stringBreakdown(str) {
     const breakdown = {};
     const sanitized = str.toLowerCase()
 
-    for (const character of str) {
+    for (const character of sanitized) {
         if (breakdown[character]) {
             breakdown[character] += 1;
         } else {

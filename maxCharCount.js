@@ -31,7 +31,7 @@ function maxCharCount(str) {
     }
 
     console.log(maxChar);
-    return maxChar
+    return maxChar;
 }
 
-maxCharCount('Professionals')
+maxCharCount('Professionals');
