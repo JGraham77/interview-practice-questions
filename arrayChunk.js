@@ -36,5 +36,5 @@ function altChunk(arr, n) {
         index += n;
     }
 
-    return chunkedArr
+    return chunkedArr;
 }
