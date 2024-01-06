@@ -38,6 +38,8 @@ class Stack {
             // console.log(item);
             items += `${item}`
         }
+
+        return items;
         // console.log(this.items);
     }
 }
