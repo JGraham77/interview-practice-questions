@@ -37,3 +37,5 @@ class HashMap {
         }
     }
 }
+
+const myMap = newHasMap();
